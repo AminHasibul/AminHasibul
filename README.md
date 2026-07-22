@@ -107,10 +107,7 @@ Supporting profiles and repositories:
 Strongest repositories:
 
 - [Continual-Learning-UsingInterClusterDistance](https://github.com/AminHasibul/Continual-Learning-UsingInterClusterDistance)
-- [overcoming-catastrophic](https://github.com/AminHasibul/overcoming-catastrophic)
 - [ConspiracyAgaintstCovidVaccines](https://github.com/AminHasibul/ConspiracyAgaintstCovidVaccines)
-- [AminHasibul.github.io](https://github.com/AminHasibul/AminHasibul.github.io)
-
 ---
 
 Experienced production engineer who also conducts research.
