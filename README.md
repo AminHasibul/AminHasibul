@@ -1,113 +1,67 @@
 # Md Hasibul Amin
 
-Senior Software Engineer focused on distributed backend systems, data platforms, and AI infrastructure. I build scalable services, event-driven pipelines, ML systems, and production automation using Python, C#, Kafka, Kubernetes, Azure, AWS, and PyTorch.
-
-I design production systems where reliability, latency, and maintainability matter.
-I build data and ML infrastructure that turns operational data into deployable intelligence.
-I conduct applied AI/ML research and translate findings into practical engineering outcomes.
+**Senior Software Engineer — Distributed Systems, Cloud Infrastructure & Applied AI/ML**
 
 ## About
 
-I am a software engineer with 10+ years of experience building distributed backend systems, data platforms, and cloud-native infrastructure for logistics and technology products. My work includes event-driven architectures, Kafka and CDC pipelines, scalable APIs, database systems, Kubernetes, production reliability, and technical leadership.
+Software engineer with 10+ years of experience building distributed backend systems, cloud infrastructure, data platforms, and production-critical services.
 
-Alongside my full-time engineering work, I conduct and collaborate on applied AI research spanning continual learning, model adaptation and evaluation, multilingual NLP, medical AI, and trustworthy machine learning.
+My work spans Kafka/CDC, CQRS, scalable APIs, Kubernetes, AWS/Azure, observability, production reliability, and technical leadership.
 
-I earned an M.S. in Computer Science from the University of Houston, where I worked on GPU-accelerated medical-imaging and applied AI systems.
+Alongside industry work, I conduct applied AI/ML research in continual learning, model reliability, NLP, medical imaging, and LLM evaluation.
 
-## Engineering Experience
+## What I Work On
 
-- Built and operated event-driven backend services for global logistics workflows using asynchronous messaging, CDC pipelines, and secure service APIs.
-- Led architecture and delivery for high-throughput freight-platform systems, including low-latency request handling, scalable data access patterns, and production observability.
-- Designed and shipped multilingual search, geo-intelligence, and pricing systems that combined algorithmic methods with operational constraints.
-- Implemented cloud and platform automation practices (container orchestration, CI/CD, release hardening, and incident response workflows) to improve delivery speed and service stability.
+- **Distributed Systems:** Kafka, CDC, CQRS, microservices, event-driven systems, reliability engineering
+- **Cloud & Platform:** AWS, Azure, Kubernetes, Docker, Terraform/Terragrunt, CI/CD
+- **Backend Engineering:** C#, F#, Python, Node.js, Java, C++, SQL
+- **AI/ML:** PyTorch, TensorFlow, continual learning, NLP, BERT, LLMs, RAG, model evaluation
+- **Search:** information retrieval, trie, inverted index, spatial hashing, fuzzy matching
+- **AI-Assisted Development:** Claude Code, GitHub Copilot, MCP workflows
 
-Recent role framing:
+## Selected Engineering Highlights
 
-- Application Developer
-- Backend and Distributed Systems Focus
+- Designed and built a resilient Kafka-based billing platform with idempotency, retries, DLQ recovery, and 99% of requests completing within 90 seconds
+- Built CDC pipelines synchronizing tens of millions of production records with ongoing changes propagated within a 30-second SLA
+- Designed CQRS-based PostgreSQL read models that improved query response time by approximately 15–18%
+- Led and mentored a 12-engineer cross-functional team supporting systems handling 400K+ daily requests and 5K+ concurrent users
+- Built a multilingual geo-search engine using trie-based search, inverted indexing, spatial hashing, and fuzzy matching
+- Migrated production workloads to AWS/Kubernetes and reduced deployment time from hours to approximately 20–30 minutes
 
-## Selected Engineering and AI Projects
-
-### Event-Driven Logistics Data Platform
-
-Designed backend services and CDC-based pipelines for reliable synchronization of operational data across distributed systems.
-
-Technologies: Kafka, CDC, C#, Python, SQL, Kubernetes, Azure/AWS
-
-Focus: reliability, idempotency, failure recovery, observability, and data consistency
-
-Proprietary implementation; architecture summary excludes confidential company information.
+## Research
 
 ### Continual Learning for Adaptive AI Systems
 
-Research and reproducibility work on continual-learning methods for adaptive AI systems, with multi-seed evaluation, checkpoint-resumable experiments, ablation design, and transparent negative-result reporting.
+Research on catastrophic forgetting, replay-based continual learning, knowledge distillation, model reliability, and reproducible evaluation.
 
-Paper: [Continual Learning for Adaptive AI Systems (arXiv)](https://arxiv.org/abs/2510.07648)
-
-Code and revised analysis: [Continual-Learning-UsingInterClusterDistance](https://github.com/AminHasibul/Continual-Learning-UsingInterClusterDistance)
-
-Clarification: the arXiv preprint reflects the current published version, while the repository includes revised negative-results analysis and reproducibility-focused implementation updates.
+[Paper](https://arxiv.org/abs/2510.07648) ·
+[Repository](https://github.com/AminHasibul/Continual-Learning-UsingInterClusterDistance)
 
 ### COVID-19 Vaccine Misinformation NLP
 
-First-author applied NLP research using manually labeled social-media comments for misinformation and conspiracy-theory detection.
+BERT-based research on conspiracy and misinformation detection using manually labeled social-media data.
 
-Dataset scope: English-language dataset from North American online comments.
+[Paper](https://arxiv.org/abs/2211.13003) ·
+[Dataset](https://huggingface.co/datasets/AminHasibul/covid-vaccine-conspiracy) ·
+[Repository](https://github.com/AminHasibul/ConspiracyAgaintstCovidVaccines)
 
-Dataset: [AminHasibul/covid-vaccine-conspiracy](https://huggingface.co/datasets/AminHasibul/covid-vaccine-conspiracy)
+## Selected Publications
 
-Repository: [ConspiracyAgaintstCovidVaccines](https://github.com/AminHasibul/ConspiracyAgaintstCovidVaccines)
+- **Continual Learning for Adaptive AI Systems** — arXiv, 2025
+- **Boundary-Aware Deep Learning Framework for Breast Cancer Image Segmentation** — IEEE CICN 2026
+- **Evaluating Parameter-Efficient Fine-Tuning of Open-Weight LLMs for Medical Question Answering** — IEEE CICN 2026
+- **Multilingual Financial Fraud Detection Using Machine Learning and Transformer Models** — IEEE CICN 2026
 
-Modeling focus: BERT-based classification pipeline with explicit labeling workflow and research ethics considerations.
-
-## Technical Expertise
-
-- Distributed systems and backend architecture: event-driven services, asynchronous integration, API design, reliability engineering.
-- Data engineering and infrastructure: CDC pipelines, SQL data systems, cloud deployment, observability, and production operations.
-- ML and AI engineering: PyTorch workflows, LLM adaptation and evaluation, reproducible experimentation, and applied NLP.
-- Platform and delivery: Kubernetes, CI/CD automation, incident diagnosis, and cross-team technical execution.
-
-## Publications
-
-- Continual learning for adaptive AI systems and catastrophic forgetting mitigation.
-- Parameter-efficient adaptation and evaluation of open-weight LLMs, including medical QA use cases.
-- Multimodal model reliability research, including hallucination mitigation and grounding-metric auditing.
-- Publications and citation record: [Google Scholar](https://scholar.google.com/citations?user=C8gkK7sAAAAJ&hl=en)
-
-Recent representative papers:
-
-- Continual Learning for Adaptive AI Systems (arXiv, 2025)
-- Evaluating Parameter-Efficient Fine-Tuning of Open-Weight LLMs for Medical Question Answering (IEEE CICN, 2026)
-- Multilingual Financial Fraud Detection Using Machine Learning and Transformer Models (IEEE CICN, 2026)
-- Boundary-Aware Deep Learning Framework for Breast Cancer Image Segmentation (IEEE CICN, 2026)
-
-## Professional Service
-
-- Technical Program Committee Member, IEEE CICN 2026.
-- Peer Reviewer, PLOS ONE (AI and ML track).
+More: [Google Scholar](https://scholar.google.com/citations?user=C8gkK7sAAAAJ&hl=en)
 
 ## Education
 
-- M.S. in Computer Science, University of Houston.
-- B.Sc. in Computer Science and Engineering, American International University-Bangladesh (AIUB).
-
-Use the exact official degree wording and graduation dates from transcript and resume in external applications and personal site content.
+**M.S. in Computer Science** — University of Houston  
+**B.Sc. in Computer Science and Engineering** — AIUB
 
 ## Contact
 
-- Email: [hasibulamin.cse@gmail.com](mailto:hasibulamin.cse@gmail.com)
-- LinkedIn: [linkedin.com/in/aminhasibul](https://linkedin.com/in/aminhasibul)
-- Google Scholar: [scholar.google.com/citations?user=C8gkK7sAAAAJ&hl=en](https://scholar.google.com/citations?user=C8gkK7sAAAAJ&hl=en)
-- GitHub: [github.com/AminHasibul](https://github.com/AminHasibul)
-
-## Links
-
-Supporting profiles and repositories:
-
-Strongest repositories:
-
-- [Continual-Learning-UsingInterClusterDistance](https://github.com/AminHasibul/Continual-Learning-UsingInterClusterDistance)
-- [ConspiracyAgaintstCovidVaccines](https://github.com/AminHasibul/ConspiracyAgaintstCovidVaccines)
----
-
-Experienced production engineer who also conducts research.
+[LinkedIn](https://linkedin.com/in/aminhasibul) ·
+[Google Scholar](https://scholar.google.com/citations?user=C8gkK7sAAAAJ&hl=en) ·
+[Hugging Face](https://huggingface.co/AminHasibul) ·
+[Email](mailto:hasibulamin.cse@gmail.com)
